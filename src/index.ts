@@ -1,2 +1,2 @@
-export {createThrottle} from "./functions";
+export * from "./functions";
 

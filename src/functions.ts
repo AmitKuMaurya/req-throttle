@@ -1,6 +1,8 @@
 import { ThrottleOptions } from "./types";
 
-export const createThrottle = ({ limit, interval }: ThrottleOptions) => {
+type EnqueueFunction = (fn: () => Promise<void>) => Promise<void>;
+
+export const createThrottle = ({ limit, interval }: ThrottleOptions) : EnqueueFunction => {
     let queue: (() => void)[] = [];
     console.log('queue: ', queue);
     let activeCount = 0;
