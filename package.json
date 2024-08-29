@@ -1,0 +1,26 @@
+{
+  "name": "req-throttle",
+  "version": "0.0.1",
+  "description": "Using this package, you can throttle network request with custom intervals Adaptably.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "http",
+  "repository": { 
+    "url": ""
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "throttle",
+    "delay",
+    "interval"
+  ],
+  "author": "npmofamit",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
