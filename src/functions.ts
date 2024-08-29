@@ -1,6 +1,6 @@
 import { ThrottleOptions } from "./types";
 
-const createThrottle = ({ limit, interval }: ThrottleOptions) => {
+export const createThrottle = ({ limit, interval }: ThrottleOptions) => {
     let queue: (() => void)[] = [];
     console.log('queue: ', queue);
     let activeCount = 0;
@@ -50,5 +50,3 @@ const createThrottle = ({ limit, interval }: ThrottleOptions) => {
   
     return enqueue;
   };
-
-export default createThrottle;
