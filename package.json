@@ -1,11 +1,10 @@
 {
   "name": "req-throttle",
-  "version": "0.1.2",
+  "version": "1.1.2",
   "description": "Using this package, you can throttle network request with custom intervals Adaptably.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "homepage": "http",
   "repository": { 
     "url": "https://github.com/AmitKuMaurya/req-throttle"
   },
