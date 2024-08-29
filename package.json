@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "homepage": "http",
   "repository": { 
-    "url": ""
+    "url": "https://github.com/AmitKuMaurya/req-throttle"
   },
   "scripts": {
     "build": "tsup"
