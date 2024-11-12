@@ -1,4 +1,5 @@
-export type ThrottleOptions = {
-    limit: number;  // Number of requests per interval
-    interval: number; // Interval in milliseconds
-  };
+export type helloType = {
+  firstName : string;
+   lastName? : string;
+  age? : number;
+}
